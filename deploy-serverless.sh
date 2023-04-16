@@ -1,0 +1,2 @@
+gcloud auth activate-service-account  docker-willy@polished-cocoa-383113.iam.gserviceaccount.com --key-file=serverless-exploration.json
+gcloud functions deploy HelloHttpFromGolang --runtime go120 --trigger-http --allow-unauthenticated --region=asia-southeast2
